@@ -18,4 +18,7 @@ window.addEventListener("DOMContentLoaded", function () {
       div.style.setProperty("--mouse-y", y + "px");
     });
   });
+
+  // LOADING ANIMATION
+  gsap.registerPlugin(ScrollTrigger);
 });

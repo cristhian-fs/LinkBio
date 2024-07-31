@@ -1040,12 +1040,20 @@ select{
   inset-inline-end: 0.25rem;
 }
 
+.end-2{
+  inset-inline-end: 0.5rem;
+}
+
 .left-0{
   left: 0px;
 }
 
 .top-0{
   top: 0px;
+}
+
+.top-1{
+  top: 0.25rem;
 }
 
 .isolate{
@@ -1122,6 +1130,10 @@ select{
 
 .clear-none{
   clear: none;
+}
+
+.m-1{
+  margin: 0.25rem;
 }
 
 .mx-auto{
@@ -3290,6 +3302,10 @@ select{
 
 .forced-color-adjust-none{
   forced-color-adjust: none;
+}
+
+.\[key\:string\]{
+  key: string;
 }
 
 /* latin */
